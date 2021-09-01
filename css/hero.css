@@ -1,0 +1,41 @@
+/*
+Copyright 2019 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it. If you have received this file from a source other than Adobe,
+then your use, modification, or distribution of it requires the prior
+written permission of Adobe.
+*/
+
+body.landing {
+  background-color: #222222;
+}
+.hero {
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+}
+
+.hero-black {
+  background-color: #222222;
+  color: #ffffff !important;
+}
+
+.hero-black .spectrum-Heading1--display.spectrum-Heading1--quiet,
+.hero-black .spectrum-Heading4 {
+  color: #ffffff !important;
+}
+
+.hero-black .spectrum-Button--primary {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(227, 227, 227);
+  color: rgb(227, 227, 227);
+}
+
+.hero-black .spectrum-Button--primary:hover {
+  background-color: rgb(227, 227, 227);
+  border-color: rgb(227, 227, 227);
+  color: rgb(37, 37, 37);
+}
