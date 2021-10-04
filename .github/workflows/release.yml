@@ -11,6 +11,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
+  IMAGE_NAME: "remear/reactor-developer-docs"
 
 jobs:
   docker:
